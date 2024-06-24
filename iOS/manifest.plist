@@ -13,6 +13,18 @@
                     <key>url</key>
                     <string>https://github.com/stoneslshi/tcmppdemo/raw/main/iOS/TUIKitDemo_202406211127_79_enterprise_sign.ipa</string>
                 </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>display-image</string>
+                    <key>url</key>
+                    <string>https://github.com/stoneslshi/tcmppdemo/raw/main/iOS/icon_57.png</string>
+                </dict>
+                <dict>
+                    <key>kind</key>
+                    <string>full-size-image</string>
+                    <key>url</key>
+                    <string>https://github.com/stoneslshi/tcmppdemo/raw/main/iOS/icon_512.png</string>
+                </dict>
             </array>
             <key>metadata</key>
             <dict>
