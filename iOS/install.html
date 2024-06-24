@@ -1,14 +1,49 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Install</title>
-    </head>
-    <body>
-        <p align=center>
-          <font size="10">
-            <a style="color:#69DEDA" href="itms-services://?action=download-manifest&url=https://github.com/stoneslshi/tcmppdemo/raw/main/iOS/manifest.plist>点击安装</a>
-          </font>
-        </p>
-    </body>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>TCMPP</title>
+    <!-- 这里可以添加 CSS 样式 -->
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .logo {
+            width: 200px; /* 根据实际图片大小调整 */
+            height: auto;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!-- 这里放置 logo 图片，确保图片路径正确 -->
+    <img class="logo" src="https://github.com/stoneslshi/tcmppdemo/raw/main/iOS/icon_512.png" alt="Logo">
+
+    <!-- 这里放置两个按钮，点击跳转到不同链接 -->
+    <div class="button-container">
+        <a href="itms-services://?action=download-manifest&url=https://github.com/stoneslshi/tcmppdemo/raw/main/iOS/manifest.plist" class="button">iOS</a>
+        <a href="https://github.com/stoneslshi/tcmppdemo/raw/main/Android/tcmpp-android-imdemo.apk" class="button">Android</a>
+    </div>
+</body>
 </html>
